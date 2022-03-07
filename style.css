@@ -240,6 +240,10 @@ section {
     color: rgb(61, 60, 59);
 }
 
+.contacts:hover {
+    color: black;
+}
+
 @media only screen and (max-width: 600px) {
 
     .skillslist {
