@@ -232,6 +232,10 @@ section {
     margin-top: 10px;
 }
 
+.contactlink {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
 
     .skillslist {
