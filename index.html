@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>Mukoza Duncan Mwesigwa</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="navigation.css">
     </head>
     <body>
-        <header>
-            <!-- <h1>MDM</h1> -->
-            <div id="nav">
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">My Skills</a>
-                <a href="#">My Projects</a>
-                <a href="#">Contact Me</a>
-            </div>
-        </header>
+        <header class="header">
+            <a href="#" class="logo">MDM</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#my-skills">My Skills</a></li>
+              <li><a href="#my-projects">My Projects</a></li>
+              <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+          </header>
         <div id="main-container">
             <div class="banner">
                 <div>
-                    <h1>Welcome to the site</h1>
-                    <h5>Sign up for free today</h5>
+                    <h1>Hello</h1>
+                    <h2>I'm Mukoza Duncan Mwesigwa</h2>
                     <button>Get started</button>
                 </div>
             </div>
 
-            <section class="about-me">
+            <section id="about-me" class="about-me">
                 <p>
                     <strong class="sectiontitle">About Me</strong>
                 </p>
@@ -33,28 +39,28 @@
                         <p>
                             I am an an individual that is interested in and has a passion for software development.<br/>
                             Here is a little bit more about myself: -
+                            <ul>
+                                <li>I am currently a member of the <strong>Kanzu Code Foundation</strong> coding bootcamp.</li>
+                                <li>I purseued a degree in <strong>Software Engineering</strong> while at the university.</li>
+                            </ul>
                         </p>
-                        <ul>
-                            <li>I am currently a member of the <strong>Kanzu Code Foundation</strong> coding bootcamp.</li>
-                            <li>I purseued a degree in <strong>Software Engineering</strong> while at the university.</li>
-                        </ul>
                     </div>
                 </div>
             </section>
 
-            <section class="my-skills">
+            <section id="my-skills" class="my-skills">
                 <p>
                     <strong class="sectiontitle">My Skills</strong>
                 </p>
                 <div class="skillssectioncontent">
-                    <p>While at the KCF bootcamp, I have improved on my knowledge and experience in a number of areas and technologies. These areas are: -</p>
+                    <p>While at the KCF bootcamp, I have improved on my knowledge and experience in a number of areas and technologies. These areas are:-</p>
                     <ul class="skillslist">
-                        <div>
+                        <div class="skillsitem">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Responsive design in CSS</li>
                         </div>
-                        <div>
+                        <div class="skillsitem">
                             <li>Git and version control</li>
                             <li>Wireframing and prototyping</li>
                             <li>The use of colaboration tools such as <strong>Trello</strong></li>
@@ -63,7 +69,7 @@
                 </div>
             </section>
 
-            <section class="my-projects">
+            <section id="my-projects" class="my-projects">
                 <p>
                     <strong class="sectiontitle">My Projects</strong><br/>
                     <span class="titleexplanation">Some of the projects that I have been involved in during the bootcamp.</span>
@@ -71,29 +77,37 @@
                 <div class="projectinfo">
                     <div class="projectitem">
                         <p class="projectindex">Project 1</p>
+                        <hr/>
                         <p class="projecttitle">
                             Survey Form<br/>
                             (HTML, CSS and Git)
                         </p>
+                        <button class="project-button"><a target="_blank" href="https://cocky-morse-482ca8.netlify.app/">View Project</a></button>
                     </div>
                     <div class="projectitem">
                         <p class="projectindex">Project 2</p>
+                        <hr/>
                         <p class="projecttitle">
                             Portfolio Website<br/>
                             (Capstone Project HTML, CSS and Git)
                         </p>
+                        <button class="project-button"><a target="_blank" href="#">View Project</a></button>
                     </div>
                 </div>
             </section>
 
-            <section class="contact-me">
+            <section id="contact-me" class="contact-me">
                 <p>
                     <strong class="sectiontitle">Contact Me</strong><br/>
                     <span class="titleexplanation">Do not hesitate to get in touch with me.</span>
                 </p>
                 <div class="contactdetails">
                     <div class="connections">
-                        <p>The contacts will go here.</p>
+                        <p class="subtitle"><strong>My Contacts</strong></p>
+                        <p>Email Address:</p>
+                        <a href="mailto:dmmukoza@gmail.com">dmmukoza@gmail.com</strong></a>
+                        <p>Telephone contact:</p>
+                        <p>+256 706334987</p>
                     </div>
                     <form class="contact-form" method="POST">
                         <input type="text" id="name" class="input1 spacing" placeholder="Please enter your name." required>
@@ -101,7 +115,7 @@
                         <input type="text" id="subject" class="input1 spacing" placeholder="Please enter the subject of communication." required>
                         <textarea id="message" class="spacing" name="message" rows="5" cols="30" placeholder="Please enter your message here." required></textarea>
             
-                        <input type="submit" id="submit" value="SUBMIT">
+                        <a class="submit-button" id="submit">SUBMIT</a>
                     </form>
                 </div>
             </section>
