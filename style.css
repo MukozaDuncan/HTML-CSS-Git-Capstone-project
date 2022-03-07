@@ -236,6 +236,10 @@ section {
     text-decoration: none;
 }
 
+.contacts {
+    color: grey;
+}
+
 @media only screen and (max-width: 600px) {
 
     .skillslist {
