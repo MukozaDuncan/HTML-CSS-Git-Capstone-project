@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/e8ea4fddab.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
         <title>Mukoza Duncan Mwesigwa</title>
         <link rel="stylesheet" href="style.css">
@@ -20,14 +24,17 @@
               <li><a href="#my-projects">My Projects</a></li>
               <li><a href="#contact-me">Contact Me</a></li>
             </ul>
-          </header>
+        </header>
         <div id="main-container">
             <div class="banner">
                 <div>
                     <h1>Hello</h1>
                     <h2>I'm Mukoza Duncan Mwesigwa</h2>
                     <div class="contactlinks">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i style="color: blue;" class="contacts fa-brands fa-facebook fa-xl"></i></a>
+                        <a target="_blank" href="#"><i style="color: #171515;" class="contacts fa-brands fa-github fa-xl"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/mukoza-duncan-mwesigwa-08200a174/"><i style="color: #0077b5;" class="contacts fa-brands fa-linkedin fa-xl"></i></a>
+                        <a target="_blank" href="#"><i style="color: #1DA1F2;" class="contacts fa-brands fa-twitter fa-xl"></i></a>
                     </div>
                 </div>
             </div>
@@ -43,7 +50,7 @@
                             Here is a little bit more about myself: -
                             <ul>
                                 <li>I am currently a member of the <strong>Kanzu Code Foundation</strong> coding bootcamp.</li>
-                                <li>I purseued a degree in <strong>Software Engineering</strong> while at the university.</li>
+<!--                                 <li>I purseued a degree in <strong>Software Engineering</strong> while at the university.</li> -->
                             </ul>
                         </p>
                     </div>
@@ -52,29 +59,40 @@
 
             <section id="my-skills" class="my-skills">
                 <p>
-                    <strong class="sectiontitle">My Skills</strong>
+                    <strong class="sectiontitle">My Skills</strong><br/>
+                    While at the KCF bootcamp, I have improved on my knowledge and experience in a number of areas and technologies. These areas are:-
                 </p>
-                <div class="skillssectioncontent">
-                    <p>While at the KCF bootcamp, I have improved on my knowledge and experience in a number of areas and technologies. These areas are:-</p>
-                    <ul class="skillslist">
-                        <div class="skillsitem">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Responsive design in CSS</li>
-                        </div>
-                        <div class="skillsitem">
-                            <li>Git and version control</li>
-                            <li>Wireframing and prototyping</li>
-                            <li>The use of colaboration tools such as <strong>Trello</strong></li>
-                        </div>
-                    </ul>
+                <div class="skillsrow">
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/html.png" alt="HTML Skill Image">
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/css.png" alt="CSS Skill Image">
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/git.png" alt="GIT Skill Image">
+                        <h2>Git</h2>
+                    </div>
+                </div>
+                <div class="skillsrow">
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/figma.jpg" alt="Wireframing Skill Image">
+                    </div>
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/responsivecss.png" alt="Responsive CSS Design Skill Image">
+                    </div>
+                    <div class="skillscard">
+                        <img class="skillimage" src="./images/trello.png" alt="Trello Skill Image">
+                    </div>
                 </div>
             </section>
 
             <section id="my-projects" class="my-projects">
                 <p>
                     <strong class="sectiontitle">My Projects</strong><br/>
-                    <span class="titleexplanation">Some of the projects that I have been involved in during the bootcamp.</span>
+                    Some of the projects that I have been involved in during the bootcamp.
                 </p>
                 <div class="projectinfo">
                     <div class="projectitem">
@@ -101,14 +119,14 @@
             <section id="contact-me" class="contact-me">
                 <p>
                     <strong class="sectiontitle">Contact Me</strong><br/>
-                    <span class="titleexplanation">Do not hesitate to get in touch with me.</span>
+                    Do not hesitate to get in touch with me.
                 </p>
                 <div class="contactdetails">
                     <div class="connections">
-                        <p class="subtitle"><strong>My Contacts</strong></p>
-                        <p>Email Address:</p>
-                        <a href="mailto:dmmukoza@gmail.com">dmmukoza@gmail.com</strong></a>
-                        <p>Telephone contact:</p>
+<!--                         <p class="subtitle"><strong>My Contacts</strong></p> -->
+                        <p><i class="contacts fa-solid fa-envelope"></i> Email Address:</p>
+                        <a class="contactlink" href="mailto:dmmukoza@gmail.com">dmmukoza@gmail.com</strong></a>
+                        <p><i class="contacts fa-solid fa-phone"></i> Telephone contact:</p>
                         <p>+256 706334987</p>
                     </div>
                     <form class="contact-form" method="POST">

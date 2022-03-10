@@ -26,7 +26,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #333;
+  color: #ffffff;
   background-color: #803F0E;
 }
 
@@ -53,23 +53,23 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 34px 30px;
   position: relative;
   user-select: none;
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #ffffff;
   display: block;
-  height: 2px;
+  height: 3px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 25px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #ffffff;
   content: '';
   display: block;
   height: 100%;
