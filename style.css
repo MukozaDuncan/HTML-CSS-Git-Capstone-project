@@ -48,7 +48,11 @@ section {
     text-align: center;
     vertical-align: center;
     /* The image used */
+<<<<<<< HEAD
     /* background-image:
+=======
+/*     background-image:
+>>>>>>> 48b7c66bbabc995cc1d51054178fb86433bebad9
     url(https://media.istockphoto.com/photos/longs-peak-at-bear-lake-longs-peak-and-glacier-gorge-reflecting-in-picture-id1043959780?b=1&k=20&m=1043959780&s=170667a&w=0&h=lRujACZBLgfSUH7GItwDTiUAZoBoUcrxjtwkqdKuf8s=); */
     /* Set background size */
     background-size:cover;
@@ -230,6 +234,18 @@ section {
 
 .spacing {
     margin-top: 10px;
+}
+
+.contactlink {
+    text-decoration: none;
+}
+
+.contacts {
+    color: rgb(61, 60, 59);
+}
+
+.contacts:hover {
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
