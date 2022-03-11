@@ -1,17 +1,15 @@
 footer{
-    /* position: absolute; */
     bottom: 0;
     left: 0;
     right: 0;
-    background: #333;
+    background: #222;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 200px;
     color: #fff;
 }
 
 .footer-content{
-    margin-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
