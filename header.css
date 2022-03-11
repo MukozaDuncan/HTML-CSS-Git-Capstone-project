@@ -1,5 +1,5 @@
 .header {
-  background-color: #803F0E;
+  background-color: #47250a;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -13,21 +13,21 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #803F0E;
+  background-color: #47250a;
 }
 
 .header li a {
   color: #ffffff;
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #803F0E;
+  border-right: 1px solid #47250a;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #ffffff;
-  background-color: #803F0E;
+  color: #f2f53d;
+  background-color: #47250a;
 }
 
 .header .logo {

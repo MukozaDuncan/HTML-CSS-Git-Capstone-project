@@ -37,3 +37,7 @@ footer{
     color: #ffffff;
     padding: 2px;
 }
+
+.footercontacts:hover {
+    color: rgb(70, 179, 223);
+}
